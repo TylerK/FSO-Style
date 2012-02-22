@@ -1,0 +1,85 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain('faculty.online.fullsail.edu') {
+	
+	/* Resets */
+	html, body { width: 100%; background-color: #dcdee0; background-image: url(http://i.imgur.com/bxTgS.gif);  }
+	#headerLeft { position: relative !important; }
+	.ml20, .ml10, .mr10, .mb10, .mt10 { margin: 0 !important;}
+
+	/* Hide stuff */
+	#headerWrapper h3 { display: none; }
+
+	/* Structure */ 
+	#content { background-color: #fff; padding: 20px !important; position: absolute !important; left: 210px; top: 85px; min-height: 100%; border-radius: 5px 5px 0px 0px; box-shadow: 0px 0px 5px rgba(0, 0, 0, .15);}
+
+	/* Global Colors */
+	#headerWrapper { background-color: #2a2a2a; background: url(http://i.imgur.com/PRH4W.png) 30px 0; height: 110px !important; }
+
+	/* Global Font Styles */
+	h1 { font-size: 15px !important; font-weight: normal !important; }
+	h2 { font-size: 13px !important; font-weight: normal !important; }
+	h3 { font-size: 11px !important; font-weight: normal !important; }
+	.published { color: #5f9f57 !important; }
+
+	/* Header */
+	#topLinks { width: 250px !important; margin: 20px 0 0 0 !important; width: 100px; position: absolute; right: -253px; text-align: right; font-size: 10px; color: #999; }
+	#topLinks a { color: #ef4723 !important; }
+	#topLinks a b { font-weight: normal; }
+	#headerLeft { padding: 10px 0 0 210px !important; width: 530px !important; }
+	#headerLeft select { margin: 0 10px 0 0; }
+
+	/* Main Nav */
+	#mainNav, #secondaryNav { display: block !important; position: absolute !important; top: 130px !important; left: 20px !important; z-index: 2; }
+	#secondaryNav { top: 330px !important; left: -740px !important; margin: 0 !important; }
+	#mainNav li, 
+	#secondaryNav li { width: 190px !important; height: 50px !important; display: block !important; margin: 0px !important; padding: 0px !important; }
+	#mainNav li a.tab1, #secondaryNav li a { }
+	#mainNav li a:hover, #secondaryNav li a:hover { color: #000; }
+	#headerWrapper a.tab1, 
+	#headerWrapper a.tab2 { float: none !important; cursor: pointer; width: 100%; height: 100%; display: block; line-height: 50px !important; text-align: left; text-indent: 55px; font-size: 15px !important; color: #999 !important; background: none; background: none !important; color: #999; margin: 0px !important; padding: 0px !important; }
+	#headerWrapper a.active { border-radius: 5px 0px 0px 5px; box-shadow: -4px 2px 5px rgba(0, 0, 0, .15); }
+	a.active:hover { color: #999; }
+	#mainNav li:nth-of-type(1) a 		{ background: url(http://i.imgur.com/zNDnW.png) 15px 16px no-repeat !important; }
+	#mainNav li:nth-of-type(2) a 		{ background: url(http://i.imgur.com/zNDnW.png) 15px -44px no-repeat !important; }
+	#mainNav li:nth-of-type(3) a 		{ background: url(http://i.imgur.com/zNDnW.png) 15px -101px no-repeat !important; }
+	#mainNav li:nth-of-type(4) a 		{ background: url(http://i.imgur.com/zNDnW.png) 15px -161px no-repeat !important; }
+	#secondaryNav li:nth-of-type(1) a 	{ background: url(http://i.imgur.com/zNDnW.png) 15px -220px no-repeat !important; }
+	#secondaryNav li:nth-of-type(2) a 	{ background: url(http://i.imgur.com/zNDnW.png) 15px -283px no-repeat !important; }
+	#secondaryNav li:nth-of-type(3) a 	{ background: url(http://i.imgur.com/zNDnW.png) 15px 16px no-repeat !important; }
+	#mainNav li:nth-of-type(1) a.active,
+	#mainNav li:nth-of-type(2) a.active,
+	#mainNav li:nth-of-type(3) a.active,
+	#mainNav li:nth-of-type(4) a.active,
+	#secondaryNav li:nth-of-type(1) a.active,
+	#secondaryNav li:nth-of-type(2) a.active,
+	#secondaryNav li:nth-of-type(3) a.active { background-color: #fff !important; }
+
+
+	/* Right Column */
+	#rightCol { background: none; border: none; }
+	.titleBar { margin: 0 0 10px 0 !important; padding: 0 0 10px 0 !important; border-bottom: double 3px #DDD; }
+	#rightCol form p { margin: 5px 0; }
+	#rightCol form p:last-child { margin: 5px 0 20px 0;}
+
+
+	/* Student List */
+	.studentList .student { }
+	.studentList .icons { top: 4px; }
+	.student .studentName { display: block; width: 100%; margin: 0px; padding: 5px 0px; text-indent: 69px; cursor: default;}
+	.studentList .student:hover .studentName { background: #f7f7f3; background-image: none; border-radius: 5px; }
+	.student .studentName em { color: #999; }
+
+
+	/* Oddly placed center links */
+	#leftCol p.taCenter { position: absolute; right: 0px; display: block; width: 260px; top: 240px; }
+	#leftCol .announcementsTopLinks.taCenter { position: relative; padding: 0 0 15px 0; display: block; width: 100%; top: 0px; text-align: center; }
+
+	/* Discussions list */
+	#discussionsList { list-style-type: none; }
+	#discussionsList li { line-height: 25px !important; }
+
+
+}
+
